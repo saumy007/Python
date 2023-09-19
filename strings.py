@@ -19,3 +19,5 @@ print(name[3])
 print("lets use a for loop here")
 for character in name:
     print(character)
+#String slicing in python
+print(name[0:-3])
