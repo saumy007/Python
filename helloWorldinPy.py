@@ -6,5 +6,12 @@ for i in range(10):
         print('here is the else part %i'%i)
         break
 
+print("\"ellow world \"",6,7, sep="~") 
+
+'''
+
+print("ellow world", print("hello world")) 
+'''
+
 
 
