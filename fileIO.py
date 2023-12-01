@@ -1,0 +1,5 @@
+f = open('myfile.py', 'r')
+text = f.read()
+print(text)
+#f.write("this Saumy is best")
+f.close()
