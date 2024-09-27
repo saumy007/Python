@@ -16,4 +16,14 @@ to join we have to use '/'.join
 '''
 
 print('/'.join([month, day, year]))
+'''
+we can concantinate strings in python as well 
+'''
+
+con = str(words)+  " " + claim + 'this is new'
+print(con)
+
+
+
+
 
