@@ -22,7 +22,7 @@ we can concantinate strings in python as well
 
 con = str(words)+  " " + claim + 'this is new'
 print(con)
-
+"{}, you'll always be the {}th planet to me.".format(planet, position)
 
 
 
