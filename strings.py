@@ -20,7 +20,7 @@ print("lets use a for loop here")
 for character in name:
     print(character)
 #String slicing in python
-print(name[0:-3])
+print(name[0:-3])#this is len of fruit minus 3
 '''
 strings are  immutable
 
