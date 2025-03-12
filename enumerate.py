@@ -10,7 +10,7 @@ for index, fruit in enumerate(fruits):
 
 # Enumerate with custom start index
 print("\nEnumerate with start index = 1:")
-for index, fruit in enumerate(fruits, start=1):
+for index, fruit in enumerate(fruits, start=2):
     print(f"Index {index}: {fruit}")
 
 # Using enumerate in a list comprehension
