@@ -1,0 +1,3 @@
+import saumy
+
+saumy.welcome()
