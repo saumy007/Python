@@ -1,8 +1,14 @@
-class person :
-    def __init__(self,name,age):
-        self.name = name # to use name that is provided everytime then u should use "name " this will display name everytime
-        self.age = age   # here it applies the same
+class Person:
+    def __init__(self,n,o):
+        print("hey this is saumy")
+        self.name = n
+        self.occ = o
+    def info(self):
+        print(f"{self.name} is a {self.occ}")
 
-p = person("john", 77)
-print(p.name)
-print(p.age)
+
+
+
+
+a = Person("saumy","I am here")
+a.info()
