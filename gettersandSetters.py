@@ -1,18 +1,27 @@
 class MyClass:
     def __init__(self, name):
-        self._name = name   # underscore → “private” convention
+        self._name = name
+        
+        
+    def show(self): # method
+        print(f"Name: {self._name}")
+        
+        
+    @property # getter function
+    def ten_value(self ): 
+        return self._name * 10
+    
+    
+    @ten_value.setter
+    def ten_value(self,new_name):
+        self._name = new_name - 10
 
-    def get_name(self):      # getter
-        return self._name
+obj = MyClass(5)
+obj.show()
+obj.ten_value = 100
+print(obj.ten_value)
+obj.show()
+obj.ten_value = 50
+print(obj.ten_value)
 
-    def set_name(self, value):  # setter
-        if isinstance(value, str):  # validation
-            self._name = value
-        else:
-            print("Name must be a string!")
 
-obj = MyClass("indirect access is working")
-print(obj.get_name())   # call getter
-obj.set_name("Direct access is working here")    # call setter
-print(obj.get_name())
-obj.set_name(123)       # validation kicks in
